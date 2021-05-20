@@ -28,8 +28,9 @@
     id: 9DC858229FC7DD38854AE2D88D81803C0EBFCD88
 
 - name: Add Docker repo
-  apt_repository: deb [arch=amd64] https://download.docker.com/linux/{{ ansible_distribution | lower }} {{ ansible_distribution_release }} stable
-    repo: present
+  apt_repository:
+    repo: "deb [arch=amd64] https://download.docker.com/linux/{{ ansible_distribution | lower }} {{ ansible_distribution_release }} stable"
+    state: present
 
 - name: Install Docker
   apt:
