@@ -7,5 +7,3 @@
         - "{{ ansible_distribution }}_{{ ansible_distribution_major_version }}.yml"
         - "{{ ansible_distribution }}.yml"
       skip: true
-
-- name: 
