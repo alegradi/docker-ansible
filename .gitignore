@@ -14,3 +14,6 @@ pytestdebug.log
 
 # VSCode #
 .vscod
+
+# Molecule #
+.cache
