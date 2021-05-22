@@ -16,4 +16,4 @@ pytestdebug.log
 .vscod
 
 # Molecule #
-.cache
+.cache/
